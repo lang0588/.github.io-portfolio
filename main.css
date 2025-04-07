@@ -1,0 +1,45 @@
+/* overriding the primary and secondary colours
+:root{
+    --bs-primary:#D04848;
+    --bs-warning:#F4DFC5;
+    --bs-success:#25344F; 
+    --bs-primary-rgb:208,72,72;
+    --bs-warning-rgb:244,223,197;
+    --bs-success-rgb:37,52,79;
+}
+
+ .btn-primary{
+  color: rgb(var(--bs-primary-rgb));
+}
+
+.text-success{
+    color: rgb(var(--bs-success-rgb));
+} */
+
+
+
+.text-success {
+    color: rgb(37, 52, 79) !important;
+  }
+
+  .btn-primary{
+    background-color: rgb(208, 72, 72) !important;
+    border-color: rgb(208, 72, 72) !important;
+  }
+
+  .bg-primary{
+    background-color: rgb(208, 72, 72) !important;
+  }
+
+  .bg-warning{
+    background-color: rgb(244, 223, 197) !important;
+  }
+
+  .border-success{
+    border-color: rgb(37, 52, 79) !important;
+  }
+
+  .text-shadow{
+  text-shadow: 3px 3px 0 rgb(244, 223, 197);
+  }
+
